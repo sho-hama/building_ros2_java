@@ -1,8 +1,7 @@
 version: '3'
 services:
-
-  ubuntu:
-    image: 3830db835696
+  ros2java_ubuntu:
+    image: theosakamg7/ros2_java_docker:ubuntu
     command: bash -c "echo hello && /bin/bash"
     tty: true
     stdin_open: true
