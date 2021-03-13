@@ -1,0 +1,12 @@
+version: '3'
+services:
+
+  ubuntu:
+    image: 3830db835696
+    command: bash -c "echo hello && /bin/bash"
+    tty: true
+    stdin_open: true
+    ports:
+      - '8080:8080'
+    volumes:
+      - ./volume:/home/travis
