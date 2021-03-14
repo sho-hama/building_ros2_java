@@ -18,15 +18,11 @@ repositories:
   ros2/console_bridge_vendor:
     type: git
     url: https://github.com/ros2/console_bridge_vendor.git
-    version: master
+    version: 1.3.0
   ros2/ament_cmake_ros:
     type: git
     url: https://github.com/ros2/ament_cmake_ros.git
     version: 0.5.0
-  ros2/rcutils:
-    type: git
-    url: https://github.com/ros2/rcutils.git
-    version: 0.5.1
   ros2/common_interfaces:
     type: git
     url: https://github.com/ros2/common_interfaces.git
@@ -47,18 +43,14 @@ repositories:
     type: git
     url: https://github.com/ros2/poco_vendor.git
     version: 1.1.1
-  ros2/rcl:
-    type: git
-    url: https://github.com/ros2/rcl.git
-    version: 0.5.1
-  ros2/rcl_logging:
-    type: git
-    url: https://github.com/ros2/rcl_logging.git
-    version: 0.2.1
   ros2/tinydir_vendor:
     type: git
     url: https://github.com/ros2/tinydir_vendor.git
     version: v1.0.0
+  ros2/rcl:
+    type: git
+    url: https://github.com/ros2/rcl.git
+    version: 0.5.1
   ros2/rcl_interfaces:
     type: git
     url: https://github.com/ros2/rcl_interfaces.git
@@ -67,6 +59,10 @@ repositories:
     type: git
     url: https://github.com/ros2/rclpy.git
     version: 0.5.4
+  ros2/rcutils:
+    type: git
+    url: https://github.com/ros2/rcutils.git
+    version: 0.5.1
   ros2/rmw:
     type: git
     url: https://github.com/ros2/rmw.git
@@ -83,10 +79,6 @@ repositories:
     type: git
     url: https://github.com/ros2/rmw_opensplice.git
     version: 0.5.2
-  ros2/rosidl_typesupport_opensplice:
-    type: git
-    url: https://github.com/ros2/rosidl_typesupport_opensplice.git
-    version: 0.5.0
   ros2/ros2cli:
     type: git
     url: https://github.com/ros2/ros2cli.git
@@ -95,6 +87,14 @@ repositories:
     type: git
     url: https://github.com/ros2/rosidl.git
     version: 0.5.1
+  ros2/rosidl_typesupport_opensplice:
+    type: git
+    url: https://github.com/ros2/rosidl_typesupport_opensplice.git
+    version: 0.5.0
+  ros2/rosidl_typesupport:
+    type: git
+    url: https://github.com/ros2/rosidl_typesupport
+    version: 0.5.0
   ros2/rosidl_dds:
     type: git
     url: https://github.com/ros2/rosidl_dds.git
@@ -110,16 +110,16 @@ repositories:
   ros2_java/ros2_java:
     type: git
     url: https://github.com/esteve/ros2_java.git
-    version: master
+    version: 62918477f4fb8810d4df0ac9c9e67b885b635d01
   ros2_java/ros2_java_examples:
     type: git
     url: https://github.com/esteve/ros2_java_examples.git
-    version: master
+    version: 4305e58493bfa37484457b3fe12525cbc0f87319
   ros2/unique_identifier_msgs:
     type: git
     url: https://github.com/ros2/unique_identifier_msgs.git
-    version: master
+    version: 2.2.0
   ros2/test_interface_files:
     type: git
     url: https://github.com/ros2/test_interface_files.git
-    version: master
+    version: 124823291a0a7d35e983b2e00abc8803ec4cdbb2
