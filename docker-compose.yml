@@ -1,11 +1,10 @@
 version: '3'
 services:
   ros2java_ubuntu:
-    image: theosakamg7/ros2_java_docker:ubuntu
-    command: bash -c "echo hello && /bin/bash"
-    tty: true
-    stdin_open: true
+    build:
+      context: .
+      dockerfile: ./Dockerfile
     ports:
-      - '8080:8080'
+      - '5901:5901'
     volumes:
-      - ./volume:/home/travis
+      - ./volume:/root/workspace

@@ -7,5 +7,7 @@ volume/ros2java_ws/install_isolated
 volume/ros2java_ws/src
 !volume/ros2java_ws/src/.gitkeep
 
+volume/.*
+
 
 
